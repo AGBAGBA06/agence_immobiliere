@@ -1,4 +1,4 @@
-@include('include.header')
+@include('includes.header')
 <!-- Start of the jumbotron with main image -->
 <div class="jumbotron p-t-1 text-xs-center">
   <span class="pull-xs-right appeal landing">Vous aussi trouvez votre place !</span>
@@ -99,7 +99,7 @@
             <option>+ 500 000</option>
           </select>
         </div>
-        <button type="submit" class="btn" id="find_button">Trouver mon bien</button>
+        <button type="submit" class="btn" id="find_button">Envoyer</button>
       </form>
 
     </aside>
@@ -116,16 +116,38 @@
 <!-- Start the card content -->
   <div class="row">
 
+  <div class="col-xs-12 col-sm-6 col-md-4">
+      <article class="card">
+        <div class="card-block text-xs-center head">
+          <h4 class="card-title">Belle maison</h4>
+          <h6 class="card-subtitle">Comines, 210 000 fcfa</h6>
+        </div>
+        <figure>
+          <img src="img/ii.jpg" alt="maison bleu à vendre" class="img-fluid hidden-sm-up">
+          <img src="img/ii.jpg" alt="maison bleue à vendre" class="img-fluid hidden-xs-down hidden-lg-up">
+          <img src="img/ii.jpg" alt="maison bleu à vendre" class="img-fluid hidden-md-down">
+        </figure>
+        <div class="card-block text-xs-center">
+          <p class="card-text">Située dans un quartier calme et arboré, cette maison avec ses 4 chambres est idéale pour une famille</p>
+          <figure class="description">
+            <span><i class="fa fa-bed" aria-hidden="true"></i>  3 chambres</span>
+            <span><i class="fa fa-tree" aria-hidden="true"></i>  Jardin</span>
+            <span><i class="fa fa-tint" aria-hidden="true"></i>   2 SDB</span>
+          </figure>
+          <a href="#" class="card-link"><i class="fa fa-eye m-r-1" aria-hidden="true"></i>Voir</a>
+        </div>
+      </article>
+    </div>
     <div class="col-xs-12 col-sm-6 col-md-4">
       <article class="card">
         <div class="card-block text-xs-center head">
           <h4 class="card-title">Belle maison</h4>
-          <h6 class="card-subtitle">Comines, 210 000 euros</h6>
+          <h6 class="card-subtitle">Comines, 210 000 fcfa</h6>
         </div>
         <figure>
-          <img src="img/house_small.jpg" class="img-fluid hidden-sm-up" alt="maison bleu à vendre">
-          <img src="img/house_medium.jpg" class="img-fluid hidden-xs-down hidden-lg-up" alt="maison bleue à vendre">
-          <img src="img/house_large.jpg" class="img-fluid hidden-md-down" alt="maison bleu à vendre">
+          <img src="img/ii.jpg" alt="maison bleu à vendre" class="img-fluid hidden-sm-up">
+          <img src="img/ii.jpg" alt="maison bleue à vendre" class="img-fluid hidden-xs-down hidden-lg-up">
+          <img src="img/ii.jpg" alt="maison bleu à vendre" class="img-fluid hidden-md-down">
         </figure>
         <div class="card-block text-xs-center">
           <p class="card-text">Située dans un quartier calme et arboré, cette maison avec ses 4 chambres est idéale pour une famille</p>
@@ -139,34 +161,11 @@
       </article>
     </div>
 
-    <div class="col-xs-12 col-sm-6 col-md-4">
+  <div class="col-xs-12 col-sm-6 col-md-4">
       <article class="card">
         <div class="card-block text-xs-center head">
           <h4 class="card-title">Belle maison</h4>
-          <h6 class="card-subtitle">Comines, 210 000 euros</h6>
-        </div>
-        <figure>
-          <img src="img/pppp.jpg" alt="maison bleu à vendre" class="img-fluid hidden-sm-up">
-          <img src="img/pppp.jpg" alt="maison bleue à vendre" class="img-fluid hidden-xs-down hidden-lg-up">
-          <img src="img/pppp.jpg" alt="maison bleu à vendre" class="img-fluid hidden-md-down">
-        </figure>
-        <div class="card-block text-xs-center">
-          <p class="card-text">Située dans un quartier calme et arboré, cette maison avec ses 4 chambres est idéale pour une famille</p>
-          <figure class="description">
-            <span><i class="fa fa-bed" aria-hidden="true"></i>  3 chambres</span>
-            <span><i class="fa fa-tree" aria-hidden="true"></i>  Jardin</span>
-            <span><i class="fa fa-tint" aria-hidden="true"></i>   2 SDB</span>
-          </figure>
-          <a href="#" class="card-link"><i class="fa fa-eye m-r-1" aria-hidden="true"></i>Voir</a>
-        </div>
-      </article>
-    </div>
-
-    <div class="col-xs-12 col-sm-6 col-md-4">
-      <article class="card">
-        <div class="card-block text-xs-center head">
-          <h4 class="card-title">Belle maison</h4>
-          <h6 class="card-subtitle">Comines, 210 000 euros</h6>
+          <h6 class="card-subtitle">Comines, 210 000 fcfa</h6>
         </div>
         <figure>
           <img src="img/ii.jpg" alt="maison bleu à vendre" class="img-fluid hidden-sm-up">
@@ -266,4 +265,4 @@
 ~~~~~~~~~Start of the footer~~~~~~~~~~~~~
 
 -->
-@include('include.footer')
+@include('includes.footer')

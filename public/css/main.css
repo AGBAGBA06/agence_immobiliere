@@ -168,6 +168,18 @@ body nav:nth-child(2) {
   margin-top: .2em;
 }
 
+.yes{
+  background-color: #45c52b;
+
+  margin-right: 7px;
+}
+
+.non{
+  background-color: #c5702b;
+
+  margin-right: 7px;
+}
+
 nav aside span {
   font-size: .12em;
 }

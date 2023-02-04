@@ -1,4 +1,4 @@
-@include('include.header')
+@include('includes.header')
 
 
 <!-- Start of the jumbotron with main image -->
@@ -75,7 +75,7 @@ dans l'intérêt de tous. N'attendez plus et découvrez nos biens à la location
         </select>
       </div>
     </form>
-    <button type="submit" class="btn" id="find_button">Trouver mon bien</button>
+    <button type="submit" class="btn" id="find_button">Envoyer</button>
 
   </div>
 
@@ -235,4 +235,4 @@ dans l'intérêt de tous. N'attendez plus et découvrez nos biens à la location
 ~~~~~~~~~Start of the footer~~~~~~~~~~~~~
 
 -->
-@include('include.footder')
+@include('includes.footer')

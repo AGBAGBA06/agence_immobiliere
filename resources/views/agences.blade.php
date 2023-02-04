@@ -1,4 +1,4 @@
-@include('include.header')
+@include('includes.header')
 
 <!-- Start of the jumbotron with main image -->
 <div class="jumbotron p-t-1 text-xs-center">
@@ -99,4 +99,4 @@ ou à venir directement nous rencontrer.</p>
 ~~~~~~~~~Start of the footer~~~~~~~~~~~~~
 
 -->
-@include('include.footer')
+@include('includes.footer')

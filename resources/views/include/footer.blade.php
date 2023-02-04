@@ -1,68 +1,80 @@
 
-<footer class="m-t-3">
+  {{--footer --}}
+  <footer class="ftco-footer ftco-section">
+    <div class="container">
+        <div class="row">
+            <div class="mouse">
+                      <a href="#" class="mouse-icon">
+                          <div class="mouse-wheel"><span class="ion-ios-arrow-up"></span></div>
+                      </a>
+                  </div>
+        </div>
+      <div class="row mb-5">
+        <div class="col-md">
+          <div class="ftco-footer-widget mb-4">
+            <h2 class="ftco-heading-2">Vegefoods</h2>
+            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
+            <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
+              <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
+              <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
+              <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md">
+          <div class="ftco-footer-widget mb-4 ml-md-5">
+            <h2 class="ftco-heading-2">Menu</h2>
+            <ul class="list-unstyled">
+              <li><a href="#" class="py-2 d-block">Shop</a></li>
+              <li><a href="#" class="py-2 d-block">About</a></li>
+              <li><a href="#" class="py-2 d-block">Journal</a></li>
+              <li><a href="#" class="py-2 d-block">Contact Us</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-4">
+           <div class="ftco-footer-widget mb-4">
+            <h2 class="ftco-heading-2">Help</h2>
+            <div class="d-flex">
+                <ul class="list-unstyled mr-l-5 pr-l-3 mr-4">
+                  <li><a href="#" class="py-2 d-block">Shipping Information</a></li>
+                  <li><a href="#" class="py-2 d-block">Returns &amp; Exchange</a></li>
+                  <li><a href="#" class="py-2 d-block">Terms &amp; Conditions</a></li>
+                  <li><a href="#" class="py-2 d-block">Privacy Policy</a></li>
+                </ul>
+                <ul class="list-unstyled">
+                  <li><a href="#" class="py-2 d-block">FAQs</a></li>
+                  <li><a href="#" class="py-2 d-block">Contact</a></li>
+                </ul>
+              </div>
+          </div>
+        </div>
+        <div class="col-md">
+          <div class="ftco-footer-widget mb-4">
+              <h2 class="ftco-heading-2">Have a Questions?</h2>
+              <div class="block-23 mb-3">
+                <ul>
+                  <li><span class="icon icon-map-marker"></span><span class="text">203 Fake St. Mountain View, San Francisco, California, USA</span></li>
+                  <li><a href="#"><span class="icon icon-phone"></span><span class="text">+2 392 3929 210</span></a></li>
+                  <li><a href="#"><span class="icon icon-envelope"></span><span class="text">info@yourdomain.com</span></a></li>
+                </ul>
+              </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 text-center">
 
-    <!-- Start of the section -->
-    <section class="container p-t-1 p-x-1 text-xs-center">
-      <h4>Esgis Immo en bref</h4>
-      <p>Esgis Immo c'est 5 agences réparties au travers de la métropole et toujours à votre service. Vous pouvez contacter l'agence la plus proche de chez vous via la rubrique nos agences ou contacter notre siège au 03 20 ## ## ##</p>
-      <!-- Footer navigation -->
-      <nav class="row">
-        <ul class="nav navbar-nav text-xs-center col-xs-9">
-          <li class="nav-item m-x-1">
-            <a class="nav-link" href="index.html">Accueil<span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item m-x-1">
-            <a class="nav-link" href="achat.html">Achat</a>
-          </li>
-          <li class="nav-item m-x-1">
-            <a class="nav-link" href="location.html">Location</a>
-          </li>
-          <li class="nav-item m-x-1">
-            <a class="nav-link" href="presentation.html">Présentation</a>
-          </li>
-          <li class="nav-item m-x-1">
-            <a class="nav-link" href="agences.html">Nos agences</a>
-          </li>
-        </ul>
-        <!-- Social medias icons -->
-        <figure class="col-xs-3 m-t-1">
-          <a href="#">
-            <i class="fa fa-facebook-official fa-2x m-r-1" aria-hidden="true"></i>
-          </a>
-          <a href="#">
-            <i class="fa fa-twitter fa-2x m-r-2" aria-hidden="true"></i>
-          </a>
-        </figure>
-      </nav>
-      <!-- Copyright paragraphe -->
-      <p>Esgis Immo.com &copy;Une réalisation <a href="" target="_blank">tech@@@@@</a></p>
-    </section>
-  
+          <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                        Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart color-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                      </p>
+        </div>
+      </div>
+    </div>
   </footer>
   
-  <!--
-  
-  ~~~~~~~~~End of the footer~~~~~~~~~~~~~
-  
-  -->
-  
-  <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
-  <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
-  <script src="js/plugins.js"></script>
-  <script src="js/main.js"></script>
-  
-  <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-  <script>
-    (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-      function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-      e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-      e.src='https://www.google-analytics.com/analytics.js';
-      r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-      ga('create','UA-XXXXX-X','auto');ga('send','pageview');
-    </script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js" integrity="sha384-THPy051/pYDQGanwU6poAc/hOdQxjnOEXzbT+OuUAFqNqFjL+4IGLBgCJC3ZOShY" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.2.0/js/tether.min.js" integrity="sha384-Plbmg8JY28KFelvJVai01l8WyZzrYWG825m+cZ0eDDS1f7d/js6ikvy1+X+guPIB" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.3/js/bootstrap.min.js" integrity="sha384-ux8v3A6CPtOTqOzMKiuo3d/DomGaaClxFYdCu2HPMBEkf6x2xiDyJ7gkXU0MWwaD" crossorigin="anonymous"></script>
-  </body>
-  </html>
-  
+
+
+<!-- loader -->
+<div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>

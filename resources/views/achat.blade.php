@@ -1,4 +1,4 @@
-@include('include.header')
+@include('includes.header')
 
 
 <!-- Start of the jumbotron with main image -->
@@ -77,7 +77,7 @@ au long de sa démarche par des professionnel compétent et ainsi faire le bon c
         </select>
       </div>
     </form>
-    <button type="submit" class="btn" id="find_button">Trouver mon bien</button>
+    <button type="submit" class="btn" id="find_button">Envoyer</button>
 
   </div>
 
@@ -88,7 +88,7 @@ au long de sa démarche par des professionnel compétent et ainsi faire le bon c
       <article class="card">
         <div class="card-block text-xs-center head">
           <h4 class="card-title">T4 arboré</h4>
-          <h6 class="card-subtitle">Croix, 180 000 euros</h6>
+          <h6 class="card-subtitle">Croix, 180 000 fcfa</h6>
         </div>
         <figure>
           <img src="img/apartement_small.jpg" class="img-fluid hidden-sm-up" alt="appartement à vendre">
@@ -111,7 +111,7 @@ au long de sa démarche par des professionnel compétent et ainsi faire le bon c
       <article class="card">
         <div class="card-block text-xs-center head">
           <h4 class="card-title">Belle maison</h4>
-          <h6 class="card-subtitle">Comines, 210 000 euros</h6>
+          <h6 class="card-subtitle">Comines, 210 000 fcfa</h6>
         </div>
         <figure>
           <img src="img/house_small.jpg" alt="maison bleu à vendre" class="img-fluid hidden-sm-up">
@@ -134,7 +134,7 @@ au long de sa démarche par des professionnel compétent et ainsi faire le bon c
       <article class="card">
         <div class="card-block text-xs-center head">
           <h4 class="card-title">Loft d'artiste</h4>
-          <h6 class="card-subtitle">Roubaix, 250 000 euros</h6>
+          <h6 class="card-subtitle">Roubaix, 250 000 fcfa</h6>
         </div>
         <figure>
           <img src="img/loft_small.jpg" alt="maison bleu à vendre" class="img-fluid hidden-sm-up">
@@ -157,7 +157,7 @@ au long de sa démarche par des professionnel compétent et ainsi faire le bon c
       <article class="card">
         <div class="card-block text-xs-center head">
           <h4 class="card-title">T4 arboré</h4>
-          <h6 class="card-subtitle">Croix, 180 000 euros</h6>
+          <h6 class="card-subtitle">Croix, 180 000 fcfa</h6>
         </div>
         <figure>
           <img src="img/apartement_small.jpg" class="img-fluid hidden-sm-up" alt="appartement à vendre">
@@ -180,7 +180,7 @@ au long de sa démarche par des professionnel compétent et ainsi faire le bon c
       <article class="card">
         <div class="card-block text-xs-center head">
           <h4 class="card-title">Belle maison</h4>
-          <h6 class="card-subtitle">Comines, 210 000 euros</h6>
+          <h6 class="card-subtitle">Comines, 210 000 fcfa</h6>
         </div>
         <figure>
           <img src="img/house_small.jpg" alt="maison bleu à vendre" class="img-fluid hidden-sm-up">
@@ -203,7 +203,7 @@ au long de sa démarche par des professionnel compétent et ainsi faire le bon c
       <article class="card">
         <div class="card-block text-xs-center head">
           <h4 class="card-title">Loft d'artiste</h4>
-          <h6 class="card-subtitle">Roubaix, 250 000 euros</h6>
+          <h6 class="card-subtitle">Roubaix, 250 000 fcfa</h6>
         </div>
         <figure>
           <img src="img/loft_small.jpg" alt="maison bleu à vendre" class="img-fluid hidden-sm-up">
@@ -238,4 +238,4 @@ au long de sa démarche par des professionnel compétent et ainsi faire le bon c
 ~~~~~~~~~Start of the footer~~~~~~~~~~~~~
 
 -->
-@include('include.footer')
+@include('includes.footer')
